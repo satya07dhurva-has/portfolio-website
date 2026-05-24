@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhurva Satya Vaish | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#f5f7fb;
+      color:#1e293b;
+      line-height:1.6;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    header{
+      background:linear-gradient(135deg,#0f172a,#1e3a8a);
+      color:white;
+      padding:100px 0;
+    }
+
+    .hero{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:40px;
+    }
+
+    .hero-text{
+      flex:1;
+      min-width:300px;
+    }
+
+    .hero-text h1{
+      font-size:3.5rem;
+      margin-bottom:15px;
+    }
+
+    .hero-text h3{
+      color:#93c5fd;
+      margin-bottom:20px;
+      font-weight:500;
+    }
+
+    .hero-text p{
+      font-size:1rem;
+      color:#dbeafe;
+      max-width:700px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:25px;
+      padding:14px 28px;
+      background:white;
+      color:#1e3a8a;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#dbeafe;
+      transform:translateY(-2px);
+    }
+
+    nav{
+      background:white;
+      padding:18px 0;
+      box-shadow:0 2px 10px rgba(0,0,0,0.08);
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    nav .container{
+      display:flex;
+      justify-content:center;
+      gap:30px;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:#0f172a;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#2563eb;
+    }
+
+    section{
+      padding:80px 0;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .section-title h2{
+      font-size:2.5rem;
+      color:#0f172a;
+    }
+
+    .card{
+      background:white;
+      border-radius:16px;
+      padding:35px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .skills ul{
+      list-style:none;
+    }
+
+    .skills li{
+      padding:12px 0;
+      border-bottom:1px solid #e2e8f0;
+      font-weight:500;
+    }
+
+    .experience-box{
+      background:#eff6ff;
+      padding:25px;
+      border-left:5px solid #2563eb;
+      border-radius:12px;
+    }
+
+    .contact p{
+      margin-bottom:12px;
+      font-size:1.05rem;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:25px 0;
+      margin-top:40px;
+    }
+
+    @media(max-width:768px){
+
+      .hero{
+        text-align:center;
+      }
+
+      .hero-text h1{
+        font-size:2.5rem;
+      }
+
+      nav .container{
+        gap:15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container hero">
+
+    <div class="hero-text">
+      <h1>Dhurva Satya Vaish</h1>
+
+      <h3>Senior Program & Project Manager | Cloud Transformation | IT Operations</h3>
+
+      <p>
+        Experienced IT Professional with 16+ years of expertise in Program Management,
+        Project Delivery, Cloud Transformation, IT Infrastructure Operations,
+        Migration Programs, and Strategic Leadership for global enterprise clients.
+      </p>
+
+      <a href="https://github.com/satya07dhurva-has" target="_blank" class="btn">
+        Visit GitHub
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section id="about">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="card">
+      <p>
+        Seasoned Program and Project Management professional with over 16+ years
+        of experience leading cross-functional teams and delivering complex,
+        high-impact initiatives for Fortune 500 clients.
+      </p>
+
+      <br>
+
+      <p>
+        Proven expertise in strategic planning, stakeholder engagement,
+        risk mitigation, operational excellence, cloud transformations,
+        IT infrastructure modernization, and enterprise migrations.
+      </p>
+
+      <br>
+
+      <p>
+        Recognized for delivering scalable solutions, improving operational
+        efficiency, enhancing system performance, and reducing operational costs
+        across global environments.
+      </p>
+
+      <br>
+
+      <p>
+        Currently working at Cognizant Technology Solutions and seeking
+        leadership opportunities focused on innovation, digital transformation,
+        and business growth.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Professional Experience</h2>
+    </div>
+
+    <div class="experience-box">
+
+      <h3>Cognizant Technology Solutions</h3>
+
+      <p>
+        Senior IT Professional managing enterprise-level delivery programs,
+        cloud migration initiatives, infrastructure operations,
+        stakeholder management, and digital transformation projects.
+      </p>
+
+      <br>
+
+      <p>
+        Experience includes:
+      </p>
+
+      <ul style="margin-top:15px; padding-left:20px;">
+        <li>Program & Project Management</li>
+        <li>Cloud Transformation Initiatives</li>
+        <li>Legacy System Migration</li>
+        <li>IT Infrastructure Operations</li>
+        <li>Global Stakeholder Management</li>
+        <li>Risk & Compliance Management</li>
+        <li>Operational Excellence</li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Core Skills</h2>
+    </div>
+
+    <div class="grid skills">
+
+      <div class="card">
+        <ul>
+          <li>Program Management</li>
+          <li>Project Management</li>
+          <li>Agile & Scrum</li>
+          <li>Stakeholder Management</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <ul>
+          <li>Cloud Migration</li>
+          <li>IT Operations</li>
+          <li>Infrastructure Management</li>
+          <li>Service Delivery</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <ul>
+          <li>Risk Mitigation</li>
+          <li>Process Optimization</li>
+          <li>DevOps Understanding</li>
+          <li>Leadership & Strategy</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Highlighted Initiatives</h2>
+    </div>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Enterprise Cloud Migration</h3>
+        <br>
+        <p>
+          Led large-scale cloud transformation programs for enterprise
+          environments with improved scalability and operational efficiency.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Infrastructure Modernization</h3>
+        <br>
+        <p>
+          Managed modernization initiatives involving legacy system migration,
+          infrastructure optimization, and service reliability improvements.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Operational Excellence Program</h3>
+        <br>
+        <p>
+          Delivered process improvement initiatives that reduced operational
+          costs and enhanced delivery performance across teams.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="card contact">
+
+      <p><strong>Email:</strong> satya07dhurva@gmail.com</p>
+
+      <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/satya07dhurva-has" target="_blank">
+          github.com/satya07dhurva-has
+        </a>
+      </p>
+
+      <a href="mailto:satya07dhurva@gmail.com" class="btn">
+        Contact Me
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Dhurva Satya Vaish | Professional Portfolio</p>
+</footer>
+
+</body>
+</html>
